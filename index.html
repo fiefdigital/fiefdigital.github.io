@@ -1,56 +1,33 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Fief Digital</title>
-  <style>
-    :root {
-      --bg: #0d0d0f;
-      --fg: #f8f8f8;
-      --accent: #c5a572;
-      --glow: rgba(197, 165, 114, 0.4);
-    }
-    html, body {
-      height: 100%;
-      margin: 0;
-    }
-    body {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      background: radial-gradient(circle at center, #161618 0%, #0d0d0f 100%);
-      color: var(--fg);
-      font-family: "Trajan Pro", serif, Georgia, Times;
-      text-align: center;
-    }
-    h1 {
-      font-size: clamp(48px, 8vw, 120px);
-      font-weight: normal;
-      letter-spacing: 0.15em;
-      text-transform: uppercase;
-      color: var(--accent);
-      text-shadow: 0 0 15px var(--glow), 0 0 40px var(--glow);
-      animation: fadeIn 2s ease-out forwards;
-      opacity: 0;
-    }
-    @keyframes fadeIn {
-      from { opacity: 0; transform: translateY(20px); }
-      to { opacity: 1; transform: translateY(0); }
-    }
-    /* İnce alt çizgi */
-    h1::after {
-      content: "";
-      display: block;
-      margin: 12px auto 0;
-      width: 80px;
-      height: 2px;
-      background: var(--accent);
-      box-shadow: 0 0 8px var(--glow);
-    }
-  </style>
+    <meta charset="UTF-8">
+    <title>Fief Digital</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #1a1a1a;
+            color: #ccc;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 0.3em;
+        }
+        p {
+            font-size: 1.2em;
+            color: #777;
+        }
+    </style>
 </head>
 <body>
-  <h1>Fief Digital</h1>
+    <h1>Fief Digital</h1>
+    <p>Coming Soon...</p>
 </body>
 </html>
